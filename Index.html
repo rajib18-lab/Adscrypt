@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adscrypt Media House</title>
+    <link rel="stylesheet" href="/Adscrypt.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <div class="logo-icon"></div>
+                        <div class="logo-text">
+                            <div class="logo-title">NEXT GENERATION</div>
+                            <div class="logo-subtitle">INFORMATION TECHNOLOGY</div>
+                        </div>
+                    </div>
+
+                    <div class="nav-menu">
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </div>
+
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#portfolio" class="mobile-link">Portfolio</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Next Generation <span class="text-accent">Information Technology</span></h1>
+                <p class="hero-description">
+                    Empowering businesses with cutting-edge technology solutions. We deliver innovative IT services, 
+                    custom software development, and digital transformation strategies that drive growth and efficiency.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started →</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="grid-pattern"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive IT solutions tailored to your business needs</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Custom Software Development</h3>
+                    <p>Building tailored software solutions that streamline your business operations and drive growth.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">☁</div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Migrating and optimizing your infrastructure with scalable cloud technologies and services.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Cybersecurity</h3>
+                    <p>Protecting your digital assets with comprehensive security solutions and threat monitoring.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Data Analytics</h3>
+                    <p>Transforming raw data into actionable insights to drive informed business decisions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🖥</div>
+                    <h3>IT Infrastructure</h3>
+                    <p>Designing and maintaining robust IT systems that support your business operations 24/7.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Implementing intelligent automation and ML solutions to optimize processes and enhance productivity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Work</h2>
+                <p>A showcase of our innovative designs and creative solutions.</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">Branding</p>
+                        <h3>Minimalist Brand Identity</h3>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">Web</p>
+                        <h3>Sleek Web Experience</h3>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">Mobile</p>
+                        <h3>Intuitive Mobile App</h3>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">Marketing</p>
+                        <h3>Elegant Digital Campaign</h3>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">UI/UX</p>
+                        <h3>Refined UI/UX Design</h3>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">Branding</p>
+                        <h3>Minimalist Product Design</h3>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual">
+                    <div class="about-image"></div>
+                </div>
+
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <h3>Next Generation Information Technology</h3>
+                    <p>
+                        At Next Generation Information Technology (nxtIt), we are pioneers in delivering cutting-edge IT solutions
+                        that transform businesses and drive digital innovation. Our team of expert developers, system architects,
+                        and technology consultants work collaboratively to create robust, scalable solutions that meet the
+                        evolving needs of modern enterprises.
+                    </p>
+                    <p>
+                        With expertise spanning cloud computing, artificial intelligence, cybersecurity, and custom software
+                        development, we empower organizations to harness the full potential of technology and stay ahead in
+                        today's competitive landscape.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Phone</h3>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">✉</div>
+                    <h3>Email</h3>
+                    <p>hello@nxtit.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Address</h3>
+                    <p>123 Tech Street, Digital City</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon-small"></div>
+                        <span>NxtIT</span>
+                    </div>
+                    <p>Empowering businesses with cutting-edge technology solutions.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Software Development</a></li>
+                        <li><a href="#services">Cloud Solutions</a></li>
+                        <li><a href="#services">Cybersecurity</a></li>
+                        <li><a href="#services">AI & ML</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">t</a>
+                        <a href="#" class="social-icon">in</a>
+                        <a href="#" class="social-icon">ig</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Next Generation Information Technology. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Adscrypt.js"></script>
+
+    
+</body>
+</html>
